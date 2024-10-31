@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background: #f1f1f1
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    margin: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+nav ul a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.Accueil{
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background: url(../images/m\ 4.webp) center/cover;
+}
+.less{
+    margin-left: 110px;
+}
+.Accueil h1{
+    font-size: 70px;
+    margin-bottom: 17px;
+}
+.Accueil h3{
+    font-size: 40px;
+    letter-spacing: 0.3px;
+}
+.Accueil button{
+    margin-top: 35px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+
+}
+.Accueil button:hover{
+    background: white;
+    color: black;
+}
+.Accueil .btn1{
+    width: 150px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Accueil .btn2{
+    width: 150px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 8px;
+}
